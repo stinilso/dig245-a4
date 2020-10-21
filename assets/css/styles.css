@@ -7,22 +7,19 @@ blue: #0d71eb
 orange: #F36D20
 */
 
+/* fonts */
 @font-face {
   font-family: 'Oswald';
   src: url('Oswald/Oswald-VariableFont_wght.ttf')
   format('truetype');
 }
 
+.accent-font {
+  font-family: 'Oswald', Helvetica, sans-serif;
+}
+
 body {
   font-family: Helvetica, sans-serif;
-}
-
-h2 {
-  padding-bottom: 20px;
-}
-
-h4 {
-  padding-bottom: 12px;
 }
 
 .white-text {
@@ -37,8 +34,18 @@ h4 {
   text-align: center;
 }
 
-.accent-font {
-  font-family: 'Oswald', Helvetica, sans-serif;
+.number {
+  color: #F36D20;
+  font-weight: 500;
+}
+
+/* page organization */
+h2 {
+  padding-bottom: 20px;
+}
+
+h4 {
+  padding-bottom: 12px;
 }
 
 .page-heading {
@@ -56,15 +63,12 @@ h4 {
   padding-bottom: 40px;
 }
 
-.number {
-  color: #F36D20;
-  font-weight: 500;
-}
-
+/* image border */
 .img-thumbnail {
   border-color: #0d71eb;
 }
 
+/* circle score */
 .circle-orange {
   height: 200px;
   width: 200px;
