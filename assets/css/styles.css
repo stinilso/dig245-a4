@@ -43,18 +43,17 @@ h4 {
 
 .page-heading {
   background-color: #0d71eb;
-  padding-top: 60px
-  padding-bottom: 15px;
+  padding-top: 70px;
+  padding-bottom: 10px;
 }
 
 .page-steps {
-  padding-top: 35px;
-  padding-bottom: 25px;
+  padding-top: 50px;
 }
 
 .page-conclusion {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 .number {
@@ -66,10 +65,17 @@ h4 {
   border-color: #0d71eb;
 }
 
-.circle {
+.circle-orange {
   height: 200px;
   width: 200px;
   background-color: #F36D20;
+  border-radius: 50%;
+}
+
+.circle-white {
+  height: 192px;
+  width: 192px;
+  background-color: white;
   border-radius: 50%;
 }
 
