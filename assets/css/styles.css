@@ -9,7 +9,7 @@ orange: #F36D20
 
 @font-face {
   font-family: 'Oswald';
-  src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap')
+  src: url('Oswald/Oswald-VariableFont_wght.ttf')
   format('truetype');
 }
 
@@ -17,45 +17,66 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-.white-text{
+h2 {
+  padding-bottom: 20px;
+}
+
+h4 {
+  padding-bottom: 12px;
+}
+
+.white-text {
   color: white;
 }
 
-p {
-
+.orange-text {
+  color: #F36D20;
 }
 
-h1 {
-
+.center-text {
+  text-align: center;
 }
 
-h2 {
-
-}
-
-h3 {
-
+.accent-font {
+  font-family: 'Oswald', Helvetica, sans-serif;
 }
 
 .page-heading {
   background-color: #0d71eb;
-  padding-top: 70px;
-  padding-bottom: 40px;
+  padding-top: 60px
+  padding-bottom: 15px;
 }
 
-.center {
-  text-align: center;
+.page-steps {
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+.page-conclusion {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .number {
   color: #F36D20;
-  font-family: 'Oswald', Helvetica, sans-serif;
   font-weight: 500;
 }
 
 .img-thumbnail {
   border-color: #0d71eb;
 }
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: #F36D20;
+  border-radius: 50%;
+}
+
+#score-1 {
+  padding-top: 25px;
+}
+
 
 .row>.col,
 .row>[class^=col-] {
